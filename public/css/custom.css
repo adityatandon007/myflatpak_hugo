@@ -1,0 +1,88 @@
+/*************************************************
+ *  My custom css for academic theme
+ **************************************************/
+
+a,
+a:visited,
+h3.article-title a:hover {
+    color: #335cb7;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #009feb;
+}
+
+.navbar-default .navbar-nav li a:hover,
+.btn-primary,
+.btn-primary.btn-outline {
+    color: #335cb7;
+}
+
+.navbar-default .navbar-brand {
+    color: #335cb7;
+}
+
+/* Header background */
+
+#header {
+    background-image: url(../img/header-background.png);
+    background-size: cover;
+}
+
+#header h1 {
+    color: #ffffff;
+}
+
+/* Removing list style */
+
+.home-section ul li{
+    list-style-type: none;
+}
+
+
+/* Standard buttons */
+
+.btn-primary,
+.btn-primary.btn-outline {
+    border-color: #335cb7;
+}
+
+/* Hover buttons */
+
+.btn-primary.btn-outline:hover {
+    border-color: #335cb7;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary:visited,
+.btn-primary.btn-outline:active {
+    background-color: #335cb7;
+}
+
+/* Navbar buttons */
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+  color: #335cb7;
+  font-weight: 700;
+  background-color: transparent !important; /* Override Bootstrap. */
+}
+
+/* Making anchors of headers and features as button  */
+
+#header a, #features a { 
+    background-color: #335cb7;
+    padding: 8px 16px;
+    display: inline-block;
+    text-decoration: none;
+    color: #FFFFFF;
+    border-radius: 10px;
+}
+#header a:hover, #features a:hover { 
+    background-color: #009feb;
+}
