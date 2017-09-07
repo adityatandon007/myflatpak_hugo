@@ -1,6 +1,5 @@
 baseurl = "https://example.com/"  # End your URL with a `/` trailing slash.
 title = "Flatpak 2.0"
-publishDir = "docs"
 copyright = "&copy; 2017 Aditya Tandon"
 theme = "academic"
 enableEmoji = true
