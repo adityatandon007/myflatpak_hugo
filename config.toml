@@ -1,0 +1,76 @@
+baseurl = "https://example.com/"  # End your URL with a `/` trailing slash.
+title = "Flatpak 2.0"
+copyright = "&copy; 2017 Aditya Tandon"
+theme = "academic"
+enableEmoji = true
+footnotereturnlinkcontents = "<sup>^</sup>"
+
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
+
+# Enable analytics by entering your Google Analytics tracking ID
+googleAnalytics = ""
+
+# Default language to use (if you setup multilingual support)
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+
+[blackfriday]
+  hrefTargetBlank = true
+
+[params]
+
+  # Enable native social sharing buttons?
+  sharing = true
+
+  # Link custom CSS and JS assets
+  #   (relative to /static/css and /static/js respectively)
+  custom_css = ["custom.css"]
+  custom_js  = []
+
+# Navigation Links
+#   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
+#     desired widget in your `content/home/` folder.
+#   The weight parameter defines the order that the links will appear in.
+
+[[menu.main]]
+  name = "Home"
+  url = "#header"
+  weight = 1
+
+[[menu.main]]
+  name = "Features"
+  url = "#features"
+  weight = 2
+
+[[menu.main]]
+  name = "About"
+  url = "#about"
+  weight = 3
+
+[[menu.main]]
+  name = "Contact"
+  url = "#contact"
+  weight = 4
+
+[[menu.main]]
+  name = "More"
+  url = "#footer"
+  weight = 5
+
+[[menu.main]]
+  name = "FAQ"
+  url = "http://flatpak.org/faq.html"
+  weight = 6
+
+[[menu.main]]
+  name = "Get Flatpak"
+  url = "http://flatpak.org/getting.html"
+  weight = 7
+
+# Languages
+#   Create a [languages.X] block for each language you want, where X is the language ID.
+
+# Configure the English version of the website.
+[languages.en]
+  languageCode = "en-us"
